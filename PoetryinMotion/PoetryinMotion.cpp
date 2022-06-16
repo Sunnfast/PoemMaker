@@ -19,7 +19,7 @@ int main()
 	string poemInstruction = "Create a poem by inputting one line at a time. ";
 	string lineInstruction = "Currently composing for line number ";
 	string quitInstruction = "Type 'quit' and enter to quit the program. ";
-	string enterInstruction = "Hit any other key to continue.";
+	string enterInstruction = "Press the enter button to continue.";
 
 	cout << intro << "\n" << poemInstruction << quitInstruction << "\n" << enterInstruction << "\n";
 
