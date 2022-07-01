@@ -3,7 +3,8 @@
 #include <string>
 using namespace std;
 
-int main()
+
+int makePoem()
 {
 	int lineNum;
 	lineNum = 1;
@@ -19,7 +20,7 @@ int main()
 	string lineInstruction = "Currently composing for line number ";
 	string quitInstruction = "Type 'quit' and enter to quit the program and to see your completed poem. ";
 
-	cout << intro << "\n" << poemInstruction <<  "\n";
+	cout << intro << "\n" << poemInstruction << "\n";
 
 	while (lineContent != "Quit" && lineContent != "quit") // checking for quit command
 	{
@@ -32,6 +33,13 @@ int main()
 	cout << poemBody;
 	cout << "\nQuitting... \nWriting consistently is a great method for improving your craft. Good luck!!";
 	return 0;
+}
+
+
+int main()
+{
+	makePoem();
 
 }
+
 
